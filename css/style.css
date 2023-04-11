@@ -1,0 +1,113 @@
+:root {
+  --primery-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --blue-accent-color: #404bbf;
+  --white-text-color: #ffffff;
+  --cloud-text-color: #f4f4fd;
+  --blue-nomal-color: #4d5ae5;
+  --primery-bg-color: #e5e5e5;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primery-text-color);
+}
+/* Style color  */
+/* /* основной цвет #434455  */
+/* вторичный цвет #2E2F42  */
+/* бекграунд #E5E5E5;  */
+/* normal blue #4D5AE5  */
+/* accent blue #404BBF  */
+/* вторичный бекграунд #F4F4FD  */
+/* белый #FFFFFF  */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Logotype  */
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.logo-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--blue-nomal-color);
+}
+/* Site-novigation  */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--blue-accent-color);
+}
+.site-nav .link.current {
+  color: var(--blue-accent-color);
+}
+.contact-nav .link {
+  color: var(--primery-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--blue-accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--white-text-color);
+}
+/* Section 1 */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/* Section 2  */
+.second-title {
+  color: var(--title-text-color);
+}
+/* Section 3  */
+.employers-list .title {
+  color: var(--title-text-color);
+}
+/* Footer  */
+.footer .logo-text {
+  color: var(--cloud-text-color);
+}
+.footer .text {
+  color: var(--cloud-text-color);
+}
+/* Section Portfolio  */
+.service-list .title {
+  color: var(--title-text-color);
+}
+/* Button  */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primery-bg-color);
+}
+.button.primery {
+  color: var(--white-text-color);
+  background-color: var(--blue-nomal-color);
+}
+.button.secondary {
+  color: var(--blue-nomal-color);
+  background-color: var(--cloud-text-color);
+}
