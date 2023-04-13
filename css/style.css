@@ -6,12 +6,13 @@
   --cloud-text-color: #f4f4fd;
   --blue-nomal-color: #4d5ae5;
   --primery-bg-color: #e5e5e5;
+  --header-bg-color: #ffffff;
 }
 
 body {
-  background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
-  color: var(--primery-text-color);
+  background-color: var(--header-bg-color);
+  color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -39,7 +40,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: var(--blue-nomal-color);
 }
 .accent {
   font-family: 'Raleway';
@@ -48,7 +49,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--blue-nomal-color);
+  color: var(--title-text-color);
 }
 /* Site-novigation  */
 .site-nav .link {
@@ -73,6 +74,10 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--blue-accent-color);
+}
+/* Address   */
+.contacts {
+  font-style: normal;
 }
 /* Hero */
 .hero-title {
@@ -114,14 +119,20 @@ body {
   background-color: var(--cloud-text-color);
 }
 /* Footer  */
+.footer {
+  background-color: var(--title-text-color);
+}
 .footer .logotype {
-  color: var(--cloud-text-color);
-  font-family: 'Raleway';
+  color: var(--blue-nomal-color);
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-accent {
+  color: var(--cloud-text-color);
 }
 .footer .text {
   color: var(--cloud-text-color);
@@ -134,7 +145,7 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--primery-bg-color);
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -161,9 +172,21 @@ body {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: inherit;
 }
 .button.secondary:hover,
 .button.secondary:focus {
   background-color: #404bbf;
   color: #ffffff;
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.text {
+  color: #434455;
 }

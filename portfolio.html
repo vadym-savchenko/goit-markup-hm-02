@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,21 +18,21 @@
     <header>
       <nav>
         <a class="logotype link" href="./index.html"
-          ><span class="accent">Web</span>Studio</a
+          >Web<span class="accent">Studio</span></a
         >
         <ul class="site-nav list">
           <li>
-            <a class="link" href="./index.html">Studio</a>
+            <a class="link current" href="./index.html">Studio</a>
           </li>
           <li>
-            <a class="link current" href="">Portfolio</a>
+            <a class="link current" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
             <a class="link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
+      <address class="contacts">
         <ul class="contact-nav list">
           <li>
             <a class="link" href="mailto:info@devstudio.com"
@@ -45,28 +47,27 @@
     </header>
 
     <main>
-      <h1 hidden>Portfolio</h1>
-      <!-- Filter  -->
-      <ul class="list">
-        <li>
-          <button type="button" class="button secondary">All</button>
-        </li>
-        <li>
-          <button type="button" class="button secondary">Web Site</button>
-        </li>
-        <li>
-          <button type="button" class="button secondary">App</button>
-        </li>
-        <li>
-          <button type="button" class="button secondary">Design</button>
-        </li>
-        <li>
-          <button type="button" class="button secondary">Marketing</button>
-        </li>
-      </ul>
       <!-- Section Portfolio -->
       <section class="section">
-        <h2 hidden>Work examples</h2>
+        <h1 hidden>Portfolio</h1>
+        <!-- Filter  -->
+        <ul class="list">
+          <li>
+            <button type="button" class="button secondary">All</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Web Site</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">App</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Design</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Marketing</button>
+          </li>
+        </ul>
         <ul class="service-list list">
           <li>
             <a class="link" href=""
@@ -76,8 +77,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Banking App Interface Concept</h3>
-              <p>App</p></a
+              <h2 class="portfolio-title">Banking App Interface Concept</h2>
+              <p class="text">App</p></a
             >
           </li>
           <li>
@@ -88,7 +89,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Cashless Payment</h3>
+              <h2 class="portfolio-title">Cashless Payment</h2>
               <p>Marketing</p></a
             >
           </li>
@@ -100,7 +101,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Meditation App</h3>
+              <h2 class="portfolio-title">Meditation App</h2>
               <p>App</p></a
             >
           </li>
@@ -112,7 +113,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Taxi Service</h3>
+              <h2 class="portfolio-title">Taxi Service</h2>
               <p>Marketing</p></a
             >
           </li>
@@ -123,7 +124,7 @@
                 alt="picture mobile"
                 width="360"
                 height="300" />
-              <h3 class="title">Screen Illustrations</h3>
+              <h2 class="portfolio-title">Screen Illustrations</h2>
               Design
               <p></p
             ></a>
@@ -136,7 +137,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Online Courses</h3>
+              <h2 class="portfolio-title">Online Courses</h2>
               <p>Marketing</p></a
             >
           </li>
@@ -148,7 +149,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Instagram Stories Concept</h3>
+              <h2 class="portfolio-title">Instagram Stories Concept</h2>
               <p>Design</p></a
             >
           </li>
@@ -160,7 +161,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Organic Food</h3>
+              <h2 class="portfolio-title">Organic Food</h2>
               <p>Web Site</p></a
             >
           </li>
@@ -172,7 +173,7 @@
                 width="360"
                 height="300"
               />
-              <h3 class="title">Fresh Coffee</h3>
+              <h2 class="portfolio-title">Fresh Coffee</h2>
               <p>Web Site</p></a
             >
           </li>
@@ -183,7 +184,7 @@
     <!-- Footer  -->
     <footer class="footer">
       <a class="logotype link" href="./index.html"
-        ><span class="accent">Web</span>Studio</a
+        >Web<span class="footer-accent">Studio</span></a
       >
       <p class="text">
         Increase the flow of customers and sales for your business with digital
