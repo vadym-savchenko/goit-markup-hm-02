@@ -12,7 +12,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--header-bg-color);
-  color: var(--title-text-color);
+  color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -80,20 +80,26 @@ body {
   font-style: normal;
 }
 /* Hero */
+.hero {
+  background-color: var(--title-text-color);
+}
 .hero-title {
   color: var(--white-text-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 /* Section 1 */
-
+.section {
+}
 .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Section 2  */
@@ -102,7 +108,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 /* Section 3  */
 .employers-list .title {
@@ -112,11 +120,15 @@ body {
   line-height: 1.2;
   text-align: center;
 }
-.employers-list .profession {
+.profession {
+  color: var(--primery-text-color);
   text-align: center;
 }
 .section.team {
   background-color: var(--cloud-text-color);
+}
+.item {
+  background-color: #ffffff;
 }
 /* Footer  */
 .footer {
@@ -188,5 +200,5 @@ body {
   color: var(--title-text-color);
 }
 .text {
-  color: #434455;
+  color: var(--primery-text-color);
 }
