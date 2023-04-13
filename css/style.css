@@ -61,9 +61,7 @@ body {
 .button.secondary:active {
   color: var(--blue-accent-color);
 }
-.site-nav .link.current {
-  color: var(--blue-accent-color);
-}
+
 .contact-nav .link {
   color: var(--primery-text-color);
   font-size: 16px;
