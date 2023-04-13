@@ -185,8 +185,8 @@ body {
 }
 .button.secondary:hover,
 .button.secondary:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--blue-accent-color);
+  color: var(--header-bg-color);
 }
 .portfolio-title {
   font-weight: 500;
